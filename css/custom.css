@@ -1,0 +1,225 @@
+/*Layout*/
+
+.container {
+	width: 1350px;
+	margin-top: 70px;
+}
+
+.col-md-3,
+.col-md-9,
+.col-md-12 {
+	margin-bottom: 40px;
+}
+
+
+/*Typography*/
+
+h3
+	{
+	margin-bottom: 20px;
+	padding: 20px 0;
+}
+
+.about-toronto {
+	text-align: justify;
+	margin-top: 20px;
+}
+
+.col-md-12 h3 {
+	display: inline-block;
+}
+
+
+/*Buttons*/
+
+.btn-primary {
+	border-radius: 0;
+}
+
+
+/*Video*/
+
+iframe {
+	width: 100%;
+}
+
+
+/*Navbar*/
+
+.navbar {
+	padding:10px 0;
+}
+
+.navbar-right button {
+	margin-right:15px;
+
+}
+
+.navbar-nav {
+	margin-left:10px;
+	text-align: center;
+}
+
+.navbar-header .navbar-brand {
+	color: #357ebd;
+
+}
+
+.navbar-header .navbar-brand:hover {
+	color: #3276b1;
+
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:active {
+	background: transparent;
+
+}
+
+.navbar-default {
+	background:rgba(255,255,255,0.8);
+}
+
+.navbar-default .navbar-toggle {
+	border-color: transparent;
+}
+
+
+
+/*Footer*/
+
+.main-footer {
+	padding:20px 0;
+	margin-top: 20px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.copyright {
+	display: inline-block;
+}
+
+.fb {
+	margin-right: 20px;
+}
+
+
+/*Modal*/
+
+.modal-footer {
+  padding: 10px 0;
+  border-top: 1px solid #e5e5e5;
+
+}
+
+
+  /*Photos API*/
+
+.photo {
+	float: left;
+	padding:5px 3px;
+
+}
+
+
+.form-control {
+ width: 10%;
+ display: inline-block;
+ margin-left: 40px;
+
+}
+
+
+/*Media Queries*/
+
+@media screen and (max-width: 1357px) {
+	.container {
+		width:1300px;	
+	}
+
+	
+}
+
+@media screen and (max-width: 1309px) {
+	.container {
+		width:1260px;	
+	}
+
+	
+}
+
+
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width:1000px;	
+	}
+
+	
+}
+
+@media screen and (max-width: 1199px) {
+	.container {
+		width:900px;	
+	}
+	h3 {
+		font-size: 1.8rem;
+	}
+
+	
+}
+
+@media screen and (max-width: 899px) {
+	.container {
+		width:800px;	
+	}
+	
+}
+
+@media screen and (max-width: 799px) {
+	.container {
+		width:700px;	
+	}
+	
+}
+
+@media screen and (max-width: 699px) {
+	.container {
+		width:600px;	
+	}
+	
+}
+
+@media screen and (max-width: 599px) {
+	.container {
+		width:550px;	
+	}
+	
+}
+
+@media screen and (max-width: 545px) {
+	.container {
+		width:500px;	
+	}
+	
+}
+
+@media screen and (max-width: 499px) {
+	.container {
+		width: 400px;	
+	}
+	.photo {
+		padding:5px 20px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
